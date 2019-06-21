@@ -1,0 +1,12 @@
+﻿生成启动时间为 2019/6/21 15:09:49。
+     1>项目“F:\my\wx\wx\wx.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\安装程序\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\wx.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt wx.cpp
+         wx.cpp
+     1>f:\my\wx\wx\wx.cpp(26): error C2664: “INT_PTR DialogBoxParamW(HINSTANCE,LPCWSTR,HWND,DLGPROC,LPARAM)”: 无法将参数 4 从“INT_PTR (__cdecl *)(HWND,UINT,WPARAM,LPARAM)”转换为“DLGPROC”
+                 该转换要求 reinterpret_cast、C 样式转换或函数类型转换
+     1>已完成生成项目“F:\my\wx\wx\wx.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.52
