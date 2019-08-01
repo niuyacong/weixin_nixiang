@@ -67,7 +67,7 @@ DWORD ProcessNameFindPID(LPCSTR ProcessName){
 
 //第二步  在微信内部申请一块内存用来放dll的路径 ，然后通过pid打开微信进程获得进程句柄
 VOID InjectDll(){
-	CHAR pathStr[0x100] = {"F://my//wx//Debug//wx.exe"};
+	CHAR pathStr[0x100] = {"D://1test//ReadAndWrite.dll"};//F://my//wx//ReadAndWrite//ReadAndWrite//Debug//ReadAndWrite.dll
 	//1、先获取微信句柄
 	DWORD PID = ProcessNameFindPID(WECHAT_PROCESS_NAME);
 	if (PID == 0){
@@ -91,9 +91,9 @@ VOID InjectDll(){
 		return;
 	}
 	//会在输出面板  显示：写入的地址为：03BC0000 拿到这个地址用ce查看这个地址是否有值
-	CHAR test[0x100] = { 0 };
-	sprintf_s(test,"写入的地址为：%p",dllAdd);
-	OutputDebugString(test);
+	//CHAR test[0x100] = { 0 };
+	//sprintf_s(test,"写入的地址为：%p",dllAdd);
+	//OutputDebugString(test);
 	HMODULE k32 = GetModuleHandle("Kernel32.dll");
 	LPVOID loadAdd=GetProcAddress(k32, "LoadLibraryA");
 	//LoadLibraryA()
@@ -103,7 +103,6 @@ VOID InjectDll(){
 		MessageBox(NULL, "远程注入失败", "错误", 0);
 		return;
 	}
-	CreateMutexW
 }
 
 

@@ -1,4 +1,4 @@
-﻿生成启动时间为 2019/6/25 15:07:42。
+﻿生成启动时间为 2019/8/1 11:22:27。
      1>项目“F:\my\wx\wx\wx.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
          D:\安装程序\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\wx.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt wx.cpp
@@ -12,4 +12,4 @@
 
 生成成功。
 
-已用时间 00:00:00.29
+已用时间 00:00:01.55
