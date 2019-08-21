@@ -67,7 +67,8 @@ DWORD ProcessNameFindPID(LPCSTR ProcessName){
 
 //第二步  在微信内部申请一块内存用来放dll的路径 ，然后通过pid打开微信进程获得进程句柄
 VOID InjectDll(){
-	CHAR pathStr[0x100] = {"D://1test//ReadAndWrite.dll"};//F://my//wx//ReadAndWrite//ReadAndWrite//Debug//ReadAndWrite.dll
+	CHAR pathStr[0x100] = {"F://my//wx//SendMessage//Debug//SendMessage.dll"};//
+	//D://1test//SendMessage.dll
 	//1、先获取微信句柄
 	DWORD PID = ProcessNameFindPID(WECHAT_PROCESS_NAME);
 	if (PID == 0){

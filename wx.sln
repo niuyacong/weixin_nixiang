@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "wx", "wx\wx.vcxproj", "{9EC92DC2-CC86-4FD5-B828-83A16A80A907}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SendMessage", "SendMessage\SendMessage\SendMessage.vcxproj", "{BB4FB172-8DDA-4C24-9D1F-D28AAD6FB1DA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -15,6 +17,10 @@ Global
 		{9EC92DC2-CC86-4FD5-B828-83A16A80A907}.Debug|Win32.Build.0 = Debug|Win32
 		{9EC92DC2-CC86-4FD5-B828-83A16A80A907}.Release|Win32.ActiveCfg = Release|Win32
 		{9EC92DC2-CC86-4FD5-B828-83A16A80A907}.Release|Win32.Build.0 = Release|Win32
+		{BB4FB172-8DDA-4C24-9D1F-D28AAD6FB1DA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BB4FB172-8DDA-4C24-9D1F-D28AAD6FB1DA}.Debug|Win32.Build.0 = Debug|Win32
+		{BB4FB172-8DDA-4C24-9D1F-D28AAD6FB1DA}.Release|Win32.ActiveCfg = Release|Win32
+		{BB4FB172-8DDA-4C24-9D1F-D28AAD6FB1DA}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
